@@ -22,28 +22,9 @@ button {
   }
 }
 
-.spaces .box-text-space h2 {
-  font-family: Arial, Verdana;
-  font-size: 40px;
-  font-weight: 500;
-  color: #090a0e;
-  text-transform: uppercase;
-  line-height: 59px;
-  margin-top: 7px;
-  word-break: break-word;
-}
 
-.spaces .box-text-space p {
-  font-family: "Helvetica", Arial, Verdana;
-  font-size: 17px;
-  font-size: 17px;
-  font-weight: 400;
-  color: #090a0e;
-}
 
-.spaces .box-text-space .btn-danger {
-  margin-top: 23px;
-}
+
 
 .spaces .box-space-photo {
   position: relative;
