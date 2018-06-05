@@ -1,3 +1,4 @@
+
 button {
   border: none;
   outline: 0;
@@ -123,8 +124,27 @@ button {
   overflow: hidden;
   background-color: transparent;
   position: relative;
+  overflow: visible;
+  font-size: 30px;
 }
-
+.popover .popover-header:before {
+  z-index: 3;
+  content: "X";
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: -60px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: #000;
+  padding-bottom: 20px;
+  cursor: pointer;
+  font-size: 35px;
+  font-weight: normal;
+  font-family: Helvetica;
+  text-align: center;
+}
 .popover .popover-header .close {
   font-family: normal;
   font-size: 25px;
@@ -151,19 +171,13 @@ button {
   display: block;
   background-color: transparent;
   border: none;
-  margin-top: 104px;
+  margin-top: 100px;
   font-family: Arial, Verdana;
   font-weight: 700;
   color: #0479c3;
   text-transform: uppercase;
 }
 
-@media (max-width: 479px) {
-  .popover .popover-header {
-    margin-top: 62px;
-
-  }
-}
 
 .popover .popover-content {
   padding: 0 54px;
@@ -173,10 +187,19 @@ button {
   color: #090a0e;
   text-align: center;
 }
-
+.popover-body {
+  font-size: 20px;
+}
 @media (max-width: 479px) {
   .popover .popover-content {
     padding: 0 37px;
     font-size: 16px;
   }
+  .popover-header {
+    margin-top: 80px !important;
+    font-size: 20px !important;
+  }
+  .popover-body {
+  font-size: 14px;
+}
 }
