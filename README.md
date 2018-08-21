@@ -1,4 +1,6 @@
 # clickable-pop-up-boxes
+While pictures are worth a thousand words, those words might not be enough on your website to explain a particular topic relevant to your website.
+Your content team can sometimes find that more information is needed on an image element to improve clarity about your website's topic. This is where pop-ups come in handy. Pop-up elements indicate to your web visitors the presence of more information. Unlike other content elements, pop-ups are only triggered by users. 
 
 
   		  
